@@ -12,6 +12,9 @@ public class TestWuzzufJobs {
         //servicesObj.FilterJobsByTitle(jobDetailsList);
 
 
-        servicesObj.FilterJobsByCountry(jobDetailsList);
+        //servicesObj.FilterJobsByCountry(jobDetailsList);
+
+        //servicesObj.FilterJobsByLevel(jobDetailsList);
+        servicesObj.FilterJobsByYearsExp(jobDetailsList);
     }
 }
